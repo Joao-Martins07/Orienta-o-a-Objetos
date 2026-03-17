@@ -1,3 +1,7 @@
-public interface Pagamento {
-    void realizarPagamento(double valor);
+public interface AplicavelAoAnimal {
+
+    boolean aplicavel(FichaAnimal a);
+
+    String getDescricao();
+
 }
